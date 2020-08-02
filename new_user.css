@@ -1,0 +1,50 @@
+body{
+    font-size: 100%;
+    background:#0086E5; 
+    font-family: 'Roboto', sans-serif;
+ }
+ .form input {
+    font-size: 1em;
+    color: black;
+    padding: 1em 0.5em;
+    display: block;
+    width: 95%;
+    outline: none;
+    margin-bottom: 1em;
+    text-align:center;
+    border: 1px solid #B9B9B9;
+}
+.form{
+    text-align: center;
+
+}
+.fullpage {
+    width:27%;
+    background: white;
+    margin:4em auto 0em;
+    border-radius: 5px;
+    padding:3em 2em;
+}
+ button {
+    font-size: 1em;
+    color: #fff;
+    background:#0086E5;
+    width: 50%;
+    padding: 0.8em 0em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 3px solid #045B99;
+    display: block;
+    margin: 1.5em auto 0;
+}
+footer {
+    text-align: center;
+}
+footer p{
+    color:white;
+}
+footer p a{
+    color:black;
+}

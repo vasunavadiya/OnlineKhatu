@@ -1,32 +1,64 @@
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="file.css"> 
+        
+    </head>
     <body>
-        <center>
-            <form>
-            <h3>Welcome to Online Khatu</h3><br>
-            <br><br>Username:<br><br>
-            <input type="text" name="username" placeholder="Enter Your User name">
-            <br><br>
-            Password:
-            <br>
-            <br>
-            <input type="password" name="password" placeholder="Enter your passwors">
-            <br>
-            <br>
-
-            <input type="button" name="submit" value="login">
-            </form>
-            <form>
-
-                <br><br>
-                <input type="button" name="newuser" value="New User">
-                <br><br>OR<br><br>
-                <input type="button" name="f_password" value="forgot password">
-
-
-            </form>
-
-        </center>
-
+    <div class="fullpage">
+        <div class="container"> 
+        <div class="agile_info">
+            <div  class="w3l_form">
+                <div class="left_grid_info">
+                    <h1>Manage Your Account</h1>
+                    <img src="image.jpg" alt="" />
+                </div>
+            </div>
+            <div class="w3_info">
+            
+            
+                    <form action="" method="POST">
+                        <h3 >Welcome to Online Khatu</h3>
+                       <label> Username:</label>
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter Your email" required=""> 
+                        </div>
+                        
+                       <label> Password:</label>
+                        
+                        
+                        <div class="input-group">
+                            <input type="password" name="password" placeholder="Enter your Password" required="" >
+                        </div>
+                        
+                        
+            
+                        <button type="submit" class="button" value="Login"> Login</button>
+                        </form>
+                        <form action="./forgot_pass.html">
+            
+                            
+                            <p class="account1">Don't have an account? <a href="new_user.html">Register here</a></p>
+                            
+                            OR
+                            <br>
+                            <br>
+                            <button type="submit" class="button" name="f_password" value="Forgot password">Forgot password</button>
+            
+            
+                    </form>
+                
+                
+            
+            </div>
+        </div>
+       
+        </div>
+    </div>
+        <div class="footer">
+            <p>&copy; 2020 Business login form. All Rights Reserved | Design by <a href="https://instagram.com/vasu_navadiya?igshid=h7azuz63ml68" target="blank">V@su</a></p>
+        </div>
+        
+    </div>
+       
     </body>
 </html>
